@@ -1,0 +1,5 @@
+API Request: {
+  "mobile": "7878787878",
+  "app_type": "admin"
+}
+API Response: {"detail":"Your OTP is sent successfully.","role":"partner"}

@@ -1,0 +1,15 @@
+{
+  "url": "https://men4u.xyz/v2/common/login",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "mobile": "7878787878",
+    "otp": "1234",
+    "app_type": "partner",
+    "fcm_token": "457896354789",
+    "device_id": "8888888888",
+    "device_model": "Laptop 122"
+  }
+}

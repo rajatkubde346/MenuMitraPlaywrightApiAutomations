@@ -1,0 +1,11 @@
+{
+  "url": "https://men4u.xyz/v2/common/login",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "mobile": "7878787878",
+    "app_type": "admin"
+  }
+}

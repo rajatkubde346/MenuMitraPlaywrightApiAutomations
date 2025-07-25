@@ -1,0 +1,9 @@
+API Request: {
+  "mobile": "7878787878",
+  "otp": "1234",
+  "app_type": "partner",
+  "fcm_token": "457896354789",
+  "device_id": "8888888888",
+  "device_model": "Laptop 122"
+}
+API Response: {"user_id":336,"name":"Sugatraj Partner","role":"partner","outlet_id":577,"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzMzYiLCJ1c2VyX2lkIjozMzYsImRldmljZV9pZCI6Ijg4ODg4ODg4ODgiLCJyb2xlIjoicGFydG5lciIsImFwcF90eXBlIjoicGFydG5lciIsImp0aSI6IjM3ZTU0MmYyLWZjMjYtNDcxYy04MzY5LWNkMWNkMDE4MTE3YSIsImV4cCI6MTc1NDAwNTgxOH0.SEvB_vNh3_nOaylTGHm0MfWF8G5T8m3I7oKuwJC42BM","expires_at":"31 Jul 2025"}

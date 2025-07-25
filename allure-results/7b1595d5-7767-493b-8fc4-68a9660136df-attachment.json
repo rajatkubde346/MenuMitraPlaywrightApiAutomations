@@ -1,0 +1,17 @@
+{
+  "user_id": 1,
+  "name": "rahil",
+  "mobile": "8728716258",
+  "email": "rahil1753428716258@gmail.com",
+  "dob": "05 Mar 1998",
+  "aadhar_number": "175342871625",
+  "address": "Pune",
+  "functionality_ids": [
+    50,
+    33,
+    25,
+    24,
+    21
+  ],
+  "app_source": "admin_app"
+}

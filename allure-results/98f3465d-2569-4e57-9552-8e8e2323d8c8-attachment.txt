@@ -1,0 +1,24 @@
+API Request: {
+  "mobile": "7878787878",
+  "app_type": "admin"
+}
+API Response: {
+  "detail": "Your OTP is sent successfully.",
+  "role": "partner"
+}
+OTP Verify Request: {
+  "mobile": "7878787878",
+  "otp": "1234",
+  "app_type": "partner",
+  "fcm_token": "457896354789",
+  "device_id": "8888888888",
+  "device_model": "Laptop 122"
+}
+OTP Verify Response: {
+  "user_id": 336,
+  "name": "Sugatraj Partner",
+  "role": "partner",
+  "outlet_id": 577,
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzMzYiLCJ1c2VyX2lkIjozMzYsImRldmljZV9pZCI6Ijg4ODg4ODg4ODgiLCJyb2xlIjoicGFydG5lciIsImFwcF90eXBlIjoicGFydG5lciIsImp0aSI6ImY0MjNmYzNiLTVjNGQtNDZkOS04MTdmLTdiYTM5MmE2Zjc0OCIsImV4cCI6MTc1NDAwNjc0OH0.2F8icwXO1xcnSWYwZ3Gf8r8T7LrTP71EmP1faIbqmlk",
+  "expires_at": "01 Aug 2025"
+}
