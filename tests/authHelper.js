@@ -1,6 +1,5 @@
 // tests/authHelper.js
 const COMMON_BASE_URL = 'https://men4u.xyz/v2/admin';
-const COMMON_BASE_URL_COMMON = 'https://men4u.xyz/v2/common';
 
 async function getAuthToken(request, {
   mobile = '7676766767',
@@ -10,12 +9,8 @@ async function getAuthToken(request, {
   device_id = '8888888888',
   device_model = 'Laptop 122'
 } = {}) {
-  // Step 1: Login - Send OTP
+  // Step 1: Login - Send OTP (admin only)
   const loginRes = await request.post(`${COMMON_BASE_URL}/admin_login`, {
-    data: { mobile, app_type }
-  });
-  // Step 2: Login - Send OTP
-  const loginResCommon = await request.post(`${COMMON_BASE_URL_COMMON}/login`, {
     data: { mobile, app_type }
   });
 
@@ -23,7 +18,7 @@ async function getAuthToken(request, {
   let otpAppType = app_type;
   if (loginBody.role === 'admin') otpAppType = 'admin';
 
-  // Step 2: Verify OTP (use /common/verify_otp)
+  // Step 2: Verify OTP via /admin/admin_verify_otp only
   const otpPayload = {
     mobile,
     otp,
@@ -32,19 +27,20 @@ async function getAuthToken(request, {
     device_id,
     device_model,
   };
-  const otpRes = await request.post('https://men4u.xyz/v2/common/verify_otp', {
+
+  const adminOtpRes = await request.post(`${COMMON_BASE_URL}/admin_verify_otp`, {
     data: otpPayload,
   });
 
-  if (otpRes.status() !== 200 && otpRes.status() !== 201) {
-    const errorText = await otpRes.text();
-    throw new Error(`OTP verification failed: status ${otpRes.status()} - ${errorText}`);
+  if (adminOtpRes.status() === 200 || adminOtpRes.status() === 201) {
+    const adminOtpBody = await adminOtpRes.json();
+    const token = adminOtpBody.access_token || adminOtpBody.token || adminOtpBody.data?.access_token;
+    if (!token) throw new Error('No access_token found in admin OTP verification response');
+    return token;
+  } else {
+    const errorText = await adminOtpRes.text();
+    throw new Error(`Admin OTP verification failed: status ${adminOtpRes.status()} - ${errorText}`);
   }
-
-  const otpResponseBody = await otpRes.json();
-  const token = otpResponseBody.access_token || otpResponseBody.token || otpResponseBody.data?.access_token;
-  if (!token) throw new Error('No access_token found in OTP verification response');
-  return token;
 }
 
 async function apiCallWithStatusCheck(request, method, url, options) {

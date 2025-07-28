@@ -1,0 +1,3 @@
+Create Partner Response: {
+  "detail": "Partner created successfully"
+}

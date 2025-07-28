@@ -1,0 +1,303 @@
+Status: 200
+Response: [
+  {
+    "user_id": 564,
+    "name": "Rajat Somase",
+    "role": "partner",
+    "email": "",
+    "mobile": "8237438743",
+    "address": "",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 645,
+    "name": "rajat kubde",
+    "role": "partner",
+    "email": "test@gmail.com",
+    "mobile": "9878678667",
+    "address": "baner",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 712,
+    "name": "Heenaaa",
+    "role": "partner",
+    "email": "own@example.com",
+    "mobile": "6264333332",
+    "address": "Owner Address",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 852,
+    "name": "rajat",
+    "role": "partner",
+    "email": "test@gmail.com",
+    "mobile": "8908890895",
+    "address": "",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 897,
+    "name": "Sugatraj Sarwade",
+    "role": "partner",
+    "email": "sugat@gmail.com",
+    "mobile": "7878787878",
+    "address": "",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 898,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753434023188@gmail.com",
+    "mobile": "8734023188",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 899,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753434038243@gmail.com",
+    "mobile": "8734038243",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 900,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753434120601@gmail.com",
+    "mobile": "8734120601",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 901,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753434486954@gmail.com",
+    "mobile": "8734486954",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 902,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753434609228@gmail.com",
+    "mobile": "8734609228",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 903,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753438465156@gmail.com",
+    "mobile": "8738465156",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 904,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753439667676@gmail.com",
+    "mobile": "8739667676",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 905,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753439702162@gmail.com",
+    "mobile": "8739702162",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 906,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753439764451@gmail.com",
+    "mobile": "8739764451",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 907,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753439807822@gmail.com",
+    "mobile": "8739807822",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 909,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753440181056@gmail.com",
+    "mobile": "8740181056",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 910,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753440603591@gmail.com",
+    "mobile": "8740603591",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 911,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753440663399@gmail.com",
+    "mobile": "8740663399",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 912,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753440837714@gmail.com",
+    "mobile": "8740837714",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 913,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753441594280@gmail.com",
+    "mobile": "8741594280",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 915,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753444788960@gmail.com",
+    "mobile": "8744788960",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 919,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753445416183@gmail.com",
+    "mobile": "8745416183",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 920,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753615642232@gmail.com",
+    "mobile": "8715642232",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 921,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753615788573@gmail.com",
+    "mobile": "8715788573",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 923,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753616195145@gmail.com",
+    "mobile": "8716195145",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 925,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753616301410@gmail.com",
+    "mobile": "8716301410",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 930,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753616975705@gmail.com",
+    "mobile": "8716975705",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 934,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753634336105@gmail.com",
+    "mobile": "8734336105",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 936,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753639822491@gmail.com",
+    "mobile": "8739822491",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 937,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753640086425@gmail.com",
+    "mobile": "8740086425",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  }
+]

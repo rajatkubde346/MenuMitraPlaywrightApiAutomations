@@ -1,5 +1,5 @@
 const { test, describe, expect } = require('@playwright/test');
-const { getAuthToken } = require('./authHelper.js');
+const { getAuthToken } = require('./authCommonHelper.js');
 
 const BASE_URL = 'https://men4u.xyz/v2/common';
 
@@ -39,14 +39,19 @@ describe('Owner API', () => {
       },
     });
 
-    // Assert status code is 200 or 201, else log error
-    expect([200, 201]).toContain(response.status());
-
     // Attach response body to Playwright report
     const responseBody = await response.json();
 
     // Print response body to terminal
     console.log('Create Owner Response:', JSON.stringify(responseBody, null, 2));
+
+    // Assert status code is 200 or 201, else log error
+    try {
+      expect([200, 201]).toContain(response.status());
+    } catch (error) {
+      console.error('Unexpected status:', response.status(), responseBody);
+      throw error;
+    }
 
     // Attach response body to Playwright report
     await test.info().attach('Create Owner Response', {
