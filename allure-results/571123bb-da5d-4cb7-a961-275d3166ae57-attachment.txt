@@ -1,0 +1,11 @@
+Create Admin Response: {
+  "detail": "Admin user created successfully with all UBAC functionalities",
+  "data": {
+    "user_id": 991,
+    "name": "Test Admin name",
+    "email": "test@gmail.com",
+    "mobile": "7878777779",
+    "role": "admin",
+    "assigned_functionalities": 21
+  }
+}

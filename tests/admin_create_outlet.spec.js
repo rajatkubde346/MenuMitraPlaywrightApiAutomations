@@ -1,34 +1,40 @@
 const { test, expect, describe } = require('@playwright/test');
-const { getAuthToken } = require('./authHelper.js');
+const { getAuthToken } = require('./authCommonHelper.js');
 
-const BASE_URL = 'https://men4u.xyz/v2/admin';
+const BASE_URL = 'https://men4u.xyz/v2/common';
 
-describe('Admin API', () => {
-  const adminPayload = {
+describe('Outlet API', () => {
+  const outletPayload = {
+    owner_ids: [857],
+    user_id: '1',
     name: 'Test Admin name',
-    mobile: '7878777779',
-    email: 'test@gmail.com',
-    password: '1234',
-    role: 'admin',
+    mobile: '6756756755',
+    address: 'Mumbai',
+    outlet_type: 'hotel',
+    outlet_mode: 'online',
+    veg_nonveg: 'veg',
+    upi_id: 'outlet@upi',
+    subscription_id: '218',
+    subscription_end_date: '28 Jul 2026',
   };
 
-  test('Create admin via API', async ({ request }) => {
+  test('Create outlet via API', async ({ request }) => {
     // Generate unique values for test run
     const unique = Date.now();
-    // adminPayload is now defined above
+    // outletPayload is now defined above
 
     // Attach request body to Playwright report
-    await test.info().attach('Create Admin Request', {
-      body: JSON.stringify(adminPayload, null, 2),
+    await test.info().attach('Create Outlet Request', {
+      body: JSON.stringify(outletPayload, null, 2),
       contentType: 'application/json',
     });
 
     // Get auth token using helper
     const token = await getAuthToken(request);
 
-    // Make the create_admin API call
-    const response = await request.post(`${BASE_URL}/create_admin`, {
-      data: adminPayload,
+    // Make the create_outlet API call
+    const response = await request.post(`${BASE_URL}/create_outlet`, {
+      data: outletPayload,
       headers: {
         Authorization: `Bearer ${token}`,
         'Content-Type': 'application/json',
@@ -38,7 +44,7 @@ describe('Admin API', () => {
     // Assert status code is 200 or 201, else log error
     if (![200, 201].includes(response.status())) {
       const errorBody = await response.text();
-      await test.info().attach('Create Admin Error', {
+      await test.info().attach('Create Outlet Error', {
         body: errorBody,
         contentType: 'application/json',
       });
@@ -49,10 +55,10 @@ describe('Admin API', () => {
     const responseBody = await response.json();
 
     // Print response body to terminal
-    console.log('Create Admin Response:', JSON.stringify(responseBody, null, 2));
+    console.log('Create Outlet Response:', JSON.stringify(responseBody, null, 2));
 
     // Attach response body to Playwright report
-    await test.info().attach('Create Admin Response', {
+    await test.info().attach('Create Outlet Response', {
       body: JSON.stringify(responseBody, null, 2),
       contentType: 'application/json',
     });

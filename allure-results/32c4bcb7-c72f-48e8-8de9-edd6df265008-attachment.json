@@ -1,0 +1,108 @@
+{
+  "user_id": 512,
+  "name": "rajat",
+  "email": "rajat@gmail.com",
+  "mobile": "7676766767",
+  "is_active": true,
+  "created_on": "11 Jul 2025 12:57 PM",
+  "updated_on": "20 Jul 2025 10:11 PM",
+  "functionalities": [
+    {
+      "id": 1,
+      "name": "manage_menu"
+    },
+    {
+      "id": 2,
+      "name": "manage_menu_category"
+    },
+    {
+      "id": 3,
+      "name": "manage_section"
+    },
+    {
+      "id": 4,
+      "name": "manage_table"
+    },
+    {
+      "id": 7,
+      "name": "manage_staff"
+    },
+    {
+      "id": 8,
+      "name": "manage_inventory"
+    },
+    {
+      "id": 9,
+      "name": "manage_supplier"
+    },
+    {
+      "id": 10,
+      "name": "manage_waiter"
+    },
+    {
+      "id": 11,
+      "name": "manage_captain"
+    },
+    {
+      "id": 12,
+      "name": "manage_manager"
+    },
+    {
+      "id": 13,
+      "name": "manage_chef"
+    },
+    {
+      "id": 14,
+      "name": "manage_partner"
+    },
+    {
+      "id": 15,
+      "name": "manage_owner"
+    },
+    {
+      "id": 17,
+      "name": "manage_table"
+    },
+    {
+      "id": 19,
+      "name": "menu_management"
+    },
+    {
+      "id": 20,
+      "name": "manage_statistics"
+    },
+    {
+      "id": 21,
+      "name": "manage_reports"
+    },
+    {
+      "id": 24,
+      "name": "manage_join_table"
+    },
+    {
+      "id": 25,
+      "name": "manage_split_table"
+    },
+    {
+      "id": 33,
+      "name": "manage tests"
+    }
+  ],
+  "active_session_count": 2,
+  "active_sessions": [
+    {
+      "device_id": "8888888888",
+      "device_model": "Laptop 122",
+      "app_type": "admin",
+      "last_activity": "28-Jul-2025 10:41:47 PM",
+      "last_login": "28-Jul-2025 10:41:47 PM"
+    },
+    {
+      "device_id": "8888888888",
+      "device_model": null,
+      "app_type": "cds",
+      "last_activity": "28-Jul-2025 09:07:58 PM",
+      "last_login": "28-Jul-2025 09:07:58 PM"
+    }
+  ]
+}
