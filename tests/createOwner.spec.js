@@ -7,10 +7,12 @@ describe('Owner API', () => {
   test('Create owner via API', async ({ request }) => {
     // Generate unique values for test run
     const unique = Date.now();
+    const mobile = `7987${unique.toString().slice(-6)}`; // generate once
+
     const partnerPayload = {
       user_id: 512,
       name: "Rahil",
-      mobile: `7987${unique.toString().slice(-6)}`,
+      mobile, // use the same mobile
       email: `test${unique}@gmail.com`,
       address: "",
       aadhar_number: `${unique}${Math.floor(Math.random() * 1000)}`.slice(0,12),
@@ -27,14 +29,14 @@ describe('Owner API', () => {
       contentType: 'application/json',
     });
 
-    // Get auth token using helper
-    const token = await getAuthToken(request);
+    // Get auth token using a static admin mobile (must exist in DB)
+    const adminToken = await getAuthToken(request, { mobile: '8787987898' }); // <-- use a real, existing admin mobile
 
-    // Make the create_owner API call
+    // Make the create_owner API call with admin token
     const response = await request.post(`${BASE_URL}/create_owner`, {
       data: partnerPayload,
       headers: {
-        Authorization: `Bearer ${token}`,
+        Authorization: `Bearer ${adminToken}`,
         'Content-Type': 'application/json',
       },
     });

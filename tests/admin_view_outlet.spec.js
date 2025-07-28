@@ -3,12 +3,12 @@
 const { test, describe, expect } = require('@playwright/test');
 const { getAuthToken } = require('./authCommonHelper.js');
 
-const BASE_URL = 'https://men4u.xyz/v2/common';
+const BASE_URL = 'https://men4u.xyz/v2/common'; // Remove trailing space
 
 describe('Outlet API', () => {
   test('View outlet via API', async ({ request }) => {
-    // Get auth token using helper
-    const token = await getAuthToken(request);
+    // Get auth token using helper, specify admin app_type
+    const token = await getAuthToken(request, { app_type: 'admin' });
 
     // Make the listview_partner API call
     const response = await request.post(`${BASE_URL}/view_outlet`, {
@@ -17,7 +17,7 @@ describe('Outlet API', () => {
         'Content-Type': 'application/json',
       },
       data: {
-        outlet_id: '581',
+        outlet_id: '567',
         user_id: 1,
         app_source: 'admin_app',
       },
@@ -27,8 +27,10 @@ describe('Outlet API', () => {
     const status = response.status();
     const contentType = response.headers()['content-type'];
     let responseBody;
+    let isJson = false;
     if (contentType && contentType.includes('application/json')) {
       responseBody = await response.json();
+      isJson = true;
     } else {
       responseBody = await response.text();
     }
@@ -44,10 +46,10 @@ describe('Outlet API', () => {
     }
     expect([200, 201]).toContain(status);
 
-    // Attach response body to Playwright report (always as string)
+    // Attach response body to Playwright report (as string or JSON)
     await test.info().attach('View Outlet Response', {
-      body: typeof responseBody === 'string' ? responseBody : JSON.stringify(responseBody, null, 2),
-      contentType: 'application/json',
+      body: isJson ? JSON.stringify(responseBody, null, 2) : String(responseBody),
+      contentType: isJson ? 'application/json' : 'text/plain',
     });
   });
 });

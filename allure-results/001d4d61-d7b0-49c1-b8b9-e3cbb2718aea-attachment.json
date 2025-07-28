@@ -1,0 +1,15 @@
+{
+  "detail": "Outlet created successfully with Section and 5 Tables",
+  "data": {
+    "image_url": null
+  },
+  "subscription": {
+    "subscription_id": 218,
+    "name": "Altra Pro Max",
+    "price": 10000,
+    "outlet_id": 582,
+    "outlet_name": "Test Admin name",
+    "subscription_start_date": "28 Jul 2025",
+    "subscription_end_date": "28 Jul 2026"
+  }
+}
