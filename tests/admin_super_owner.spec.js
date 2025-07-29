@@ -7,7 +7,7 @@ describe('Admin API', () => {
   const adminPayload = {
     user_id: 1,
     name: 'rajat',
-    mobile: '8669103742',
+    mobile: '8669103746',
     email: 'rajatkubde14@gmail.com',
     aadhar_number: '777776756565',
     app_source: 'admin_app',

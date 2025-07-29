@@ -1,0 +1,32 @@
+{
+  "detail": "Super owners list retrieved successfully",
+  "total_super_owners": 2,
+  "super_owners": [
+    {
+      "super_owner_id": 178,
+      "name": "Viraj Kadam Sir",
+      "mobile": "9945561289",
+      "email": "tesst@gmail.com",
+      "outlet_ids": [
+        36
+      ],
+      "created_on": "13 Jun 2025 09:01 PM",
+      "created_by": null,
+      "is_active": true,
+      "active_session_count": 0
+    },
+    {
+      "super_owner_id": 984,
+      "name": "rajat",
+      "mobile": "8669103742",
+      "email": "rajatkubde14@gmail.com",
+      "outlet_ids": [
+        567
+      ],
+      "created_on": "28 Jul 2025 10:39 PM",
+      "created_by": null,
+      "is_active": true,
+      "active_session_count": 0
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+Status: 200
+Response: {
+  "status": "success",
+  "data": [
+    {
+      "user_id": 1,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "mobile": "9999999999",
+      "is_active": true,
+      "created_on": "26 Apr 2025 08:54 AM",
+      "active_session_count": 5
+    },
+    {
+      "user_id": 181,
+      "name": "Komal",
+      "email": "ad@gmail.com",
+      "mobile": "8000000000",
+      "is_active": true,
+      "created_on": "16 Jun 2025 03:33 PM",
+      "active_session_count": 2
+    },
+    {
+      "user_id": 235,
+      "name": "Viraj Kadam",
+      "email": "viraj@example.com",
+      "mobile": "8806431723",
+      "is_active": true,
+      "created_on": "19 Jun 2025 10:57 AM",
+      "active_session_count": 0
+    },
+    {
+      "user_id": 253,
+      "name": "Sugat Admin",
+      "email": "sugatraj.2106@gmail.com",
+      "mobile": "8308377302",
+      "is_active": true,
+      "created_on": "20 Jun 2025 12:31 PM",
+      "active_session_count": 1
+    },
+    {
+      "user_id": 255,
+      "name": "Anil Shinde",
+      "email": "anil.example@gmail.com",
+      "mobile": "9767637798",
+      "is_active": true,
+      "created_on": "20 Jun 2025 03:30 PM",
+      "active_session_count": 0
+    },
+    {
+      "user_id": 256,
+      "name": "Abhishek Sherkar",
+      "email": "abhi.example@gmail.com",
+      "mobile": "8600704616",
+      "is_active": true,
+      "created_on": "20 Jun 2025 03:31 PM",
+      "active_session_count": 0
+    },
+    {
+      "user_id": 355,
+      "name": "Sugatraj admin test updated",
+      "email": "menumitra.info@gmail.com",
+      "mobile": "8875888888",
+      "is_active": false,
+      "created_on": "27 Jun 2025 12:03 PM",
+      "active_session_count": 0
+    },
+    {
+      "user_id": 512,
+      "name": "rajat",
+      "email": "rajat@gmail.com",
+      "mobile": "7676766767",
+      "is_active": true,
+      "created_on": "11 Jul 2025 12:57 PM",
+      "active_session_count": 2
+    },
+    {
+      "user_id": 678,
+      "name": "Sugatraj",
+      "email": "menumitra.info@gmail.com",
+      "mobile": "9865445354",
+      "is_active": true,
+      "created_on": "19 Jul 2025 02:55 PM",
+      "active_session_count": 0
+    },
+    {
+      "user_id": 830,
+      "name": "Heena",
+      "email": "heena@gmail.com",
+      "mobile": "6666666666",
+      "is_active": true,
+      "created_on": "23 Jul 2025 01:54 PM",
+      "active_session_count": 1
+    },
+    {
+      "user_id": 851,
+      "name": "Test Admin",
+      "email": "testadmin@gmail.com",
+      "mobile": "8000000006",
+      "is_active": true,
+      "created_on": "24 Jul 2025 01:51 PM",
+      "active_session_count": 0
+    },
+    {
+      "user_id": 991,
+      "name": "Test Admin name",
+      "email": "test@gmail.com",
+      "mobile": "7878777779",
+      "is_active": true,
+      "created_on": "28 Jul 2025 11:10 PM",
+      "active_session_count": 0
+    },
+    {
+      "user_id": 1005,
+      "name": "Test Admin name",
+      "email": "test1753767849935@gmail.com",
+      "mobile": "7273486844",
+      "is_active": true,
+      "created_on": "29 Jul 2025 11:14 AM",
+      "active_session_count": 0
+    }
+  ]
+}

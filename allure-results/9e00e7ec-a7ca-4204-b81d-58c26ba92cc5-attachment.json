@@ -1,0 +1,38 @@
+{
+  "detail": "Super owner details retrieved successfully",
+  "super_owner": {
+    "super_owner_id": 178,
+    "name": "Viraj Kadam Sir",
+    "mobile": "9945561289",
+    "email": "tesst@gmail.com",
+    "aadhar_number": "343332345321",
+    "is_active": true,
+    "created_on": "13 Jun 2025 09:01 PM",
+    "created_by": null,
+    "updated_on": "24 Jul 2025 04:16 PM",
+    "updated_by": null
+  },
+  "assigned_outlets": [
+    {
+      "outlet_id": 36,
+      "outlet_name": "Rahul Resto",
+      "outlet_code": "909706",
+      "address": "123 Main St",
+      "mobile": "6999999999",
+      "outlet_status": true,
+      "is_open": true,
+      "created_on": "16 Jun 2025 04:41 PM",
+      "active_session_count": 0,
+      "active_sessions": []
+    }
+  ],
+  "assigned_functionalities": [
+    {
+      "functionality_id": 20,
+      "functionality_name": "manage_statistics",
+      "created_on": "16 May 2025 03:35 PM"
+    }
+  ],
+  "total_outlets": 1,
+  "total_functionalities": 1
+}

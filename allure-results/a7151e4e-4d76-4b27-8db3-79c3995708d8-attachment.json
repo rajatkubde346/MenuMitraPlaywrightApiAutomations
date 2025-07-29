@@ -1,0 +1,11 @@
+{
+  "detail": "Admin user created successfully with all UBAC functionalities",
+  "data": {
+    "user_id": 1005,
+    "name": "Test Admin name",
+    "email": "test1753767849935@gmail.com",
+    "mobile": "7273486844",
+    "role": "admin",
+    "assigned_functionalities": 21
+  }
+}

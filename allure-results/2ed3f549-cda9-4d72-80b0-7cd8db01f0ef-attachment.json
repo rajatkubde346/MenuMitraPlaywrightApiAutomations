@@ -1,0 +1,15 @@
+{
+  "user_id": 512,
+  "name": "Rahil",
+  "mobile": "7987171473",
+  "email": "test1753726171473@gmail.com",
+  "address": "",
+  "aadhar_number": "175372617147",
+  "dob": "07 Jun 2025",
+  "outlet_ids": [
+    535
+  ],
+  "account_type": "live",
+  "is_active": 1,
+  "app_source": "admin"
+}

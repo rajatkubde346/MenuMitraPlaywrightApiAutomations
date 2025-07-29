@@ -1,0 +1,15 @@
+{
+  "owner_ids": [
+    857
+  ],
+  "user_id": "1",
+  "name": "Test Admin name",
+  "mobile": "6756756755",
+  "address": "Mumbai",
+  "outlet_type": "hotel",
+  "outlet_mode": "online",
+  "veg_nonveg": "veg",
+  "upi_id": "outlet@upi",
+  "subscription_id": "218",
+  "subscription_end_date": "28 Jul 2026"
+}

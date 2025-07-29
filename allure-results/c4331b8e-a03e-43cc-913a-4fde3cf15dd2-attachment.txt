@@ -1,0 +1,273 @@
+Status: 200
+Response: [
+  {
+    "user_id": 564,
+    "name": "Rajat Somase",
+    "role": "partner",
+    "email": "",
+    "mobile": "8237438743",
+    "address": "",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 645,
+    "name": "rajat kubde",
+    "role": "partner",
+    "email": "test@gmail.com",
+    "mobile": "9878678667",
+    "address": "baner",
+    "is_active": 1,
+    "active_session_count": 2
+  },
+  {
+    "user_id": 712,
+    "name": "Heenaaa",
+    "role": "partner",
+    "email": "own@example.com",
+    "mobile": "6264333332",
+    "address": "Owner Address",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 852,
+    "name": "rajat",
+    "role": "partner",
+    "email": "test@gmail.com",
+    "mobile": "8908890895",
+    "address": "",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 897,
+    "name": "Sugatraj Sarwade",
+    "role": "partner",
+    "email": "sugat@gmail.com",
+    "mobile": "7878787878",
+    "address": "",
+    "is_active": 1,
+    "active_session_count": 3
+  },
+  {
+    "user_id": 943,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753642182810@gmail.com",
+    "mobile": "8742182810",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 944,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753642942462@gmail.com",
+    "mobile": "8742942462",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 972,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753717077033@gmail.com",
+    "mobile": "8717077033",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 974,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753717810871@gmail.com",
+    "mobile": "8717810871",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 978,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753721687174@gmail.com",
+    "mobile": "8721687174",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 981,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753721814931@gmail.com",
+    "mobile": "8721814931",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 982,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753721964880@gmail.com",
+    "mobile": "8721964880",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 985,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753722560569@gmail.com",
+    "mobile": "8722560569",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 988,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753722704511@gmail.com",
+    "mobile": "8722704511",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 992,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753724406799@gmail.com",
+    "mobile": "8724406799",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 993,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753724940405@gmail.com",
+    "mobile": "8724940405",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 994,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753725200656@gmail.com",
+    "mobile": "8725200656",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 995,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753725469978@gmail.com",
+    "mobile": "8725469978",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 996,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753725968196@gmail.com",
+    "mobile": "8725968196",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 997,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753726171311@gmail.com",
+    "mobile": "8726171311",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 998,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753766019845@gmail.com",
+    "mobile": "8766019845",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 1000,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753766841441@gmail.com",
+    "mobile": "8766841441",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 1003,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753767744493@gmail.com",
+    "mobile": "8767744493",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 1006,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753767852479@gmail.com",
+    "mobile": "8767852479",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 1007,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753768442022@gmail.com",
+    "mobile": "8768442022",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 1010,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753770660625@gmail.com",
+    "mobile": "8770660625",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  },
+  {
+    "user_id": 1012,
+    "name": "rahil",
+    "role": "partner",
+    "email": "rahil1753772207312@gmail.com",
+    "mobile": "8772207312",
+    "address": "Pune",
+    "is_active": 1,
+    "active_session_count": 0
+  }
+]

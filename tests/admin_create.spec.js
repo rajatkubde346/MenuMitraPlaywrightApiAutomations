@@ -4,12 +4,13 @@ const { getAuthToken } = require('./authHelper.js');
 const BASE_URL = 'https://men4u.xyz/v2/admin';
 
 describe('Admin API', () => {
-  const TEST_MOBILE = '9999999999'; // <-- Use the correct test number
+  const AUTH_MOBILE = process.env.ADMIN_MOBILE; // Set this in your environment
+  const NEW_ADMIN_MOBILE = `7${Math.floor(Math.random() * 1e9)}`; // For new admin creation
 
   const adminPayload = {
     name: 'Test Admin name',
-    mobile: TEST_MOBILE,
-    email: 'test@gmail.com',
+    mobile: NEW_ADMIN_MOBILE,
+    email: `test${Date.now()}@gmail.com`,
     password: '1234',
     role: 'admin',
   };
@@ -26,7 +27,7 @@ describe('Admin API', () => {
     });
 
     // Get auth token using helper
-    const token = await getAuthToken(request, { mobile: TEST_MOBILE });
+    const token = await getAuthToken(request, { mobile: AUTH_MOBILE });
 
     // Make the create_admin API call
     const response = await request.post(`${BASE_URL}/create_admin`, {
