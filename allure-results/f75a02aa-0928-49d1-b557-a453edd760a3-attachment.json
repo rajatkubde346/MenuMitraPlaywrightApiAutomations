@@ -1,0 +1,24 @@
+{
+  "outlet_id": "598",
+  "user_id": "1036",
+  "menu_cat_id": "1135",
+  "name": "89898",
+  "food_type": "veg",
+  "description": "",
+  "spicy_index": "",
+  "portion_data": [
+    {
+      "portion_name": "Regular",
+      "price": 140,
+      "unit_value": "",
+      "unit_type": "",
+      "flag": 1
+    }
+  ],
+  "ingredients": "",
+  "offer": "0",
+  "rating": "0.0",
+  "app_source": "pos_app",
+  "images": [],
+  "is_special": false
+}

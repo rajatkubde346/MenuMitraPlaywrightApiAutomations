@@ -1,0 +1,49 @@
+Status: 200
+Response: {
+  "user_id": 564,
+  "name": "Rajat Somase",
+  "mobile": "8237438743",
+  "email": "",
+  "role": "partner",
+  "address": "",
+  "dob": "2025-10-11",
+  "aadhar_number": "222222222222",
+  "photo": null,
+  "created_on": "15 Jul 2025, 10:50:42 AM",
+  "created_by": null,
+  "updated_on": "19 Jul 2025, 05:06:56 PM",
+  "updated_by": "admin",
+  "is_staff": 0,
+  "account_status": 1,
+  "is_active": 1,
+  "is_superuser": 0,
+  "outlets": [],
+  "functionalities": [
+    {
+      "functionality_id": 7,
+      "functionality_name": "manage_staff"
+    },
+    {
+      "functionality_id": 7,
+      "functionality_name": "manage_staff"
+    },
+    {
+      "functionality_id": 4,
+      "functionality_name": "manage_table"
+    },
+    {
+      "functionality_id": 4,
+      "functionality_name": "manage_table"
+    },
+    {
+      "functionality_id": 3,
+      "functionality_name": "manage_section"
+    },
+    {
+      "functionality_id": 3,
+      "functionality_name": "manage_section"
+    }
+  ],
+  "active_session_count": 0,
+  "active_sessions": []
+}

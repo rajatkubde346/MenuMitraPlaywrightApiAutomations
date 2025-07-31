@@ -1,0 +1,4 @@
+Create Menu Response (Specific Payload): {
+  "detail": "Menu created successfully",
+  "image_urls": []
+}

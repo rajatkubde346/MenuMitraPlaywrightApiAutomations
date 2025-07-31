@@ -1,0 +1,10 @@
+{
+  "detail": "Subscription fetched successfully",
+  "data": {
+    "subscription_id": 218,
+    "name": "Altra Pro Max",
+    "price": 10000,
+    "outlet_id": null,
+    "features": []
+  }
+}

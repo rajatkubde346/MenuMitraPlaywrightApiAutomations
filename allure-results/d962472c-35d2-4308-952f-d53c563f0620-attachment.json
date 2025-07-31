@@ -1,0 +1,22 @@
+{
+  "outlet_id": "535",
+  "menu_cat_id": "917",
+  "user_id": 1,
+  "name": "Dosa",
+  "food_type": "veg",
+  "description": "",
+  "spicy_index": "1",
+  "ingredients": "",
+  "offer": "0",
+  "app_source": "admin_app",
+  "portion_data": [
+    {
+      "portion_name": "Full",
+      "price": 150,
+      "unit_value": "150",
+      "unit_type": "gm",
+      "flag": 1
+    }
+  ],
+  "images": []
+}

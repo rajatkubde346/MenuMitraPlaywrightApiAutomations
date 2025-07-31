@@ -1,0 +1,6 @@
+Create Owner Response: {
+  "detail": "Owner created successfully",
+  "assigned_outlets": [
+    535
+  ]
+}

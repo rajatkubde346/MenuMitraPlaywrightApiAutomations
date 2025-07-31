@@ -1,0 +1,5 @@
+Response time for Provided Payload: 54 ms
+Create Menu Response (Provided Payload): {
+  "detail": "Menu created successfully",
+  "image_urls": []
+}

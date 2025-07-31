@@ -1,0 +1,795 @@
+{
+  "detail": [
+    {
+      "menu_id": 1759,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 942,
+      "name": "Naan",
+      "food_type": "veg",
+      "category_name": "Roti",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 35,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1758,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 942,
+      "name": "Bhakri",
+      "food_type": "veg",
+      "category_name": "Roti",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 25,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1757,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 942,
+      "name": "Butter Roti",
+      "food_type": "veg",
+      "category_name": "Roti",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 30,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1756,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 942,
+      "name": "Tandoori Roti",
+      "food_type": "veg",
+      "category_name": "Roti",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 20,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1755,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 942,
+      "name": "Chapati",
+      "food_type": "veg",
+      "category_name": "Roti",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 15,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1754,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 941,
+      "name": "Tuljabhavani Special Mutton Handi",
+      "food_type": "nonveg",
+      "category_name": "Mutton Courses",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 700,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1753,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 941,
+      "name": "Mutton Malvani",
+      "food_type": "nonveg",
+      "category_name": "Mutton Courses",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 600,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1752,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 941,
+      "name": "Mutton Handi",
+      "food_type": "nonveg",
+      "category_name": "Mutton Courses",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 550,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1751,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 941,
+      "name": "Mutton Kadai",
+      "food_type": "nonveg",
+      "category_name": "Mutton Courses",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 280,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1750,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 941,
+      "name": "Alani Mutton",
+      "food_type": "nonveg",
+      "category_name": "Mutton Courses",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 250,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1749,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 940,
+      "name": "Tilapia Fry",
+      "food_type": "nonveg",
+      "category_name": "Fish Starter",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 210,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1748,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 940,
+      "name": "Bangda Fry",
+      "food_type": "nonveg",
+      "category_name": "Fish Starter",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 210,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1747,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 940,
+      "name": "Surmai Fry",
+      "food_type": "nonveg",
+      "category_name": "Fish Starter",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 330,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1746,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 939,
+      "name": "Tuljabhavani Special Mutton Thali",
+      "food_type": "nonveg",
+      "category_name": "Mutton Special Thali",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 420,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1745,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 939,
+      "name": "Mutton Fry Thali",
+      "food_type": "nonveg",
+      "category_name": "Mutton Special Thali",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 280,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1744,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 939,
+      "name": "Mutton Masala Thali",
+      "food_type": "nonveg",
+      "category_name": "Mutton Special Thali",
+      "spicy_index": "2",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 260,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1743,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 938,
+      "name": "Mutton Alani Rice",
+      "food_type": "nonveg",
+      "category_name": "Non-Veg Rice",
+      "spicy_index": "4",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 220,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1742,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 938,
+      "name": "Chicken Alani Rice",
+      "food_type": "nonveg",
+      "category_name": "Non-Veg Rice",
+      "spicy_index": "2",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 180,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1741,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 938,
+      "name": "Mutton Biryani",
+      "food_type": "nonveg",
+      "category_name": "Non-Veg Rice",
+      "spicy_index": "2",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 350,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1740,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 938,
+      "name": "Chicken Biryani",
+      "food_type": "nonveg",
+      "category_name": "Non-Veg Rice",
+      "spicy_index": "2",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 250,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1739,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 938,
+      "name": "Egg Biryani",
+      "food_type": "nonveg",
+      "category_name": "Non-Veg Rice",
+      "spicy_index": "2",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 200,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1738,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 932,
+      "name": "Dal Khichdi",
+      "food_type": "veg",
+      "category_name": "Rice",
+      "spicy_index": "3",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 130,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1737,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 932,
+      "name": "Green Peas Pulao",
+      "food_type": "veg",
+      "category_name": "Rice",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 150,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1736,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 932,
+      "name": "Paneer Pulao",
+      "food_type": "veg",
+      "category_name": "Rice",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 170,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1735,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 932,
+      "name": "Kashmiri Pulao",
+      "food_type": "veg",
+      "category_name": "Rice",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 180,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1734,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 932,
+      "name": "Veg Pulao",
+      "food_type": "veg",
+      "category_name": "Rice",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 150,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1733,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 932,
+      "name": "Veg Biryani",
+      "food_type": "veg",
+      "category_name": "Rice",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 170,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1732,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 932,
+      "name": "Jeera Rice",
+      "food_type": "veg",
+      "category_name": "Rice",
+      "spicy_index": "2",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 100,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1731,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 932,
+      "name": "Indrayani Rice",
+      "food_type": "veg",
+      "category_name": "Rice",
+      "spicy_index": "2",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 100,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1730,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 937,
+      "name": "Tilapia Fry Thali",
+      "food_type": "nonveg",
+      "category_name": "Fish Thali",
+      "spicy_index": "3",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 220,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1729,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 937,
+      "name": "Bangda Fry Thali",
+      "food_type": "nonveg",
+      "category_name": "Fish Thali",
+      "spicy_index": "3",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 220,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1728,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 937,
+      "name": "Surmai Fry Thali",
+      "food_type": "nonveg",
+      "category_name": "Fish Thali",
+      "spicy_index": "1",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 350,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1649,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 896,
+      "name": "Chicken Masala",
+      "food_type": "nonveg",
+      "category_name": "Chickens",
+      "spicy_index": null,
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Regular",
+          "price": 150,
+          "unit_value": "",
+          "unit_type": ""
+        }
+      ],
+      "image": [
+        {
+          "image_id": 410,
+          "image": "https://men4u.xyz/v2/media/menu_images/mm_images_86628.jpg"
+        },
+        {
+          "image_id": 411,
+          "image": "https://men4u.xyz/v2/media/menu_images/mm_images_23504.jpg"
+        },
+        {
+          "image_id": 412,
+          "image": "https://men4u.xyz/v2/media/menu_images/mm_images_39086.jpg"
+        },
+        {
+          "image_id": 413,
+          "image": "https://men4u.xyz/v2/media/menu_images/mm_images_79294.jpg"
+        },
+        {
+          "image_id": 414,
+          "image": "https://men4u.xyz/v2/media/menu_images/mm_images_36697.jpg"
+        }
+      ]
+    },
+    {
+      "menu_id": 1648,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 917,
+      "name": "Dahi Wada",
+      "food_type": "veg",
+      "category_name": "Snacks",
+      "spicy_index": "2",
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 150,
+          "unit_value": "150",
+          "unit_type": "gm"
+        }
+      ],
+      "image": []
+    },
+    {
+      "menu_id": 1647,
+      "outlet_id": 535,
+      "outlet_name": "Rajat Restaurant",
+      "menu_cat_id": 896,
+      "name": "Chicken Tikka Masala",
+      "food_type": "nonveg",
+      "category_name": "Chickens",
+      "spicy_index": null,
+      "is_active": 1,
+      "total_active_menu": 35,
+      "total_inactive_menu": 0,
+      "portions": [
+        {
+          "portion_name": "Full",
+          "price": 350,
+          "unit_value": "250",
+          "unit_type": "gm"
+        }
+      ],
+      "image": []
+    }
+  ]
+}

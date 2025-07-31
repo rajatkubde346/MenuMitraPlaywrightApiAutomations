@@ -1,0 +1,33 @@
+{
+  "user_id": "744",
+  "outlet_id": "535",
+  "app_source": "pos_app",
+  "order_type": "dine-in",
+  "action": "is_reserved",
+  "order_items": [
+    {
+      "menu_id": "2248",
+      "quantity": 1,
+      "comment": "",
+      "price": 250,
+      "portion_name": "Half"
+    }
+  ],
+  "table_number": 10,
+  "customer_name": "",
+  "customer_mobile": "",
+  "customer_address": "",
+  "customer_landmark": "",
+  "customer_alternate_mobile": "",
+  "special_discount": 0,
+  "charges": 0,
+  "tip": 0,
+  "is_complementary": false,
+  "is_udhari": false,
+  "estimated_settlement_period": "",
+  "tables": [
+    "10"
+  ],
+  "section_id": "1090",
+  "table_id": 0
+}

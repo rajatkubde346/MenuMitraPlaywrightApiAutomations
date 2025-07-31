@@ -1,0 +1,45 @@
+{
+  "user_id": "744",
+  "outlet_id": "567",
+  "order_type": "dine-in",
+  "action": "has_save",
+  "order_items": [
+    {
+      "menu_id": "1957",
+      "quantity": 1,
+      "comment": "",
+      "price": 220,
+      "portion_name": "Full"
+    },
+    {
+      "menu_id": "1955",
+      "quantity": 1,
+      "comment": "",
+      "price": 350,
+      "portion_name": "Full"
+    },
+    {
+      "menu_id": "1956",
+      "quantity": 1,
+      "comment": "",
+      "price": 220,
+      "portion_name": "Full"
+    }
+  ],
+  "app_source": "pos_app",
+  "customer_name": "",
+  "customer_mobile": "",
+  "customer_address": "",
+  "customer_landmark": "",
+  "customer_alternate_mobile": "",
+  "special_discount": "0",
+  "charges": "0",
+  "tip": "0",
+  "order_payment_settle_type": null,
+  "is_saved": true,
+  "tables": [
+    "1"
+  ],
+  "section_id": "1115",
+  "table_id": 4261
+}
